@@ -8,8 +8,6 @@ This repository contains solutions to **Assignment 2** of the Neural Network and
 - [Exercise 2.3 - Eigencats](#exercise-23---eigencats)
 - [Getting Started](#getting-started)
 - [Results](#results)
-- [Contributors](#contributors)
-- [License](#license)
 
 ---
 
@@ -65,10 +63,8 @@ This exercise demonstrates Principal Component Analysis (PCA) applied to a datas
    ```bash
    cd NNTI_Assignment2
    ```
-3. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
+3. Install dependencies
+
 
 ### Running the Code
 - **Dataset and Dataloader Implementation:** Execute `exercise_2_2.py` to see the custom `Dataset` and `DataLoader` classes in action.
@@ -89,11 +85,7 @@ This exercise demonstrates Principal Component Analysis (PCA) applied to a datas
   - Visualized reconstructed images with varying numbers of principal components (e.g., 10, 40, and 80 components).
   - Observed trade-offs between reconstruction quality and the number of components used.
 
-#### Example Output
-1. **Mean Cat Image:**
-   ![Mean Cat](imgs/meancat.png)
-2. **Reconstructed Images (10, 40, 80 Singular Values):**
-   ![Reconstructed Cats](imgs/reconstructed_cats.png)
+
 
 ---
 
